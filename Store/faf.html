@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Friend</title>
+    <link rel="stylesheet" href="../Assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../Assets/font/bootstrap-icons.min.css">
+    <style>
+        a {
+            text-decoration: none !important;
+        }
+
+        header .row ul li a:hover {
+            color: #3683e8 !important;
+        }
+
+        .py-6 {
+            padding: 10px 10px;
+            color: black;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .btnn {
+            padding: 5px 10px;
+            border: 1px solid black !important;
+            background-color: transparent;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        .z999 {
+            z-index: -9 !important;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 200px;
+            background-image: url("../Assets/Images/faf-1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px !important;
+        }
+
+        .card-img1 {
+            width: 100%;
+            height: 200px;
+            background-image: url("../Assets/Images/faf-2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px !important;
+        }
+
+        .card-img2 {
+            width: 100%;
+            height: 200px;
+            background-image: url("../Assets/Images/faf-3.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px !important;
+        }
+
+        .card-img3 {
+            width: 100%;
+            height: 200px;
+            background-image: url("../Assets/Images/faf-4.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="py-3 position-fixed top-0 w-100 border-bottom border-2 border-primary"
+        style="background-color: #a4bdfb;">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-md-4 col-lg-3">
+                    <img class="img-fluid" src="../Assets/Images/logo.png" alt="">
+                </div>
+                <div class="col-lg-9 d-none d-lg-block" style="height: 54px;">
+                    <div class="d-flex justify-content-end" style="height: 54px;">
+                        <ul class="list-unstyled d-flex h-100 align-items-center fs-5">
+                            <li class="ms-3"><a href="../index.html" class="text-dark">Home</a></li>
+                            <li class="ms-3"><a href="../Store/Store.html" class="text-primary">Store</a></li>
+                            <li class="ms-3"><a href="../service/service.html" class="text-dark">Service</a></li>
+                            <li class="ms-3"><a href="../care_navigator/navi.html" class="text-dark">Care Navigator</a>
+                            </li>
+                            <li class="ms-3"><a href="#" class="text-dark">Cart</a></li>
+                            <li class="ms-3"><a href="../SignIn/signin.html" class="btn btn-primary text-white px-4">Log In</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-block d-lg-none col-7 col-md-8 col-lg-9 d-flex justify-content-end" style="height: 54px;">
+                    <ul class="list-unstyled d-flex h-100 align-items-center fs-5">
+                        <li class="ms-3"><a href="../SignIn/signin.html" class="btn btn-primary text-white px-4">Log In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <main style="margin-top: 100px;">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title">
+                            <h1 class="text-center">Find A Friend</h1>
+                            <p class="text-center mt-3">“Discover your perfect pet companion."</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-end">
+                            <img src="../Assets/Images/Mask group.png" alt="">
+                        </div>
+                        <div class="input-group z999">
+                            <span><i
+                                    class="py-6 bi-search input-group-text bg-transparent border border-1 border-dark"></i></span>
+                            <input type="text"
+                                class="form-control border border-1 border-dark text-secondary border-start-0"
+                                value="Search for services" aria-label="Search">
+                        </div>
+                    </div>
+                    <div class="col-12 py-3">
+                        <div class="d-none d-md-block">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <ul class="list-unstyled d-flex h-100 align-items-center mb-0">
+                                    <li>Dog/</li>
+                                    <li>Young/</li>
+                                    <li>Male/</li>
+                                    <li>Vaccinated</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="btnn">
+                            <a href="#" class="text-dark">Categories</a>
+                        </button>
+                        <button class="btnn">
+                            <a href="#" class="text-dark">Filters</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="caard">
+                            <div class="card-img"></div>
+                            <div class="c-body mt-3">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Breed</span><span class="fw-bold">Husky</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Age</span><span class="fw-bold">6 Weeks</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Price</span><span class="fw-bold">32,000/-</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">
+                                <a href="./huskydetails.html" class="text-white">Explore</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="caard">
+                            <div class="card-img1"></div>
+                            <div class="c-body mt-3">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Breed</span><span class="fw-bold">Labrador</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Age</span><span class="fw-bold">6 Weeks</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Price</span><span class="fw-bold">15,000/-</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">
+                                <a href="#" class="text-white">Explore</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="caard">
+                            <div class="card-img2"></div>
+                            <div class="c-body mt-3">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Breed</span><span class="fw-bold">German She..</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Age</span><span class="fw-bold">6 Weeks</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Price</span><span class="fw-bold">30,000/-</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">
+                                <a href="#" class="text-white">Explore</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="caard">
+                            <div class="card-img3"></div>
+                            <div class="c-body mt-3">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Breed</span><span class="fw-bold">German</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Age</span><span class="fw-bold">6 Weeks</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span>Price</span><span class="fw-bold">45,000/-</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">
+                                <a href="#" class="text-white">Explore</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer start -->
+    <footer class="mt-5 border-top border-2 border-primary" style="background-color: #a4bdfb;">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-lg-block col-4 text-center py-3">
+                    <img class="col-10 py-4" src="../Assets/Images/logo.png" alt="">
+                    <p class="text-dark fw-bold">“Pawsitively Connected”</p>
+                    <p class="text-dark fw-bold">© 2024 WishFur. All Rights Reserved.</p>
+                </div>
+                <div class="col-12 col-lg-8 py-3">
+                    <div class="d-flex flex-wrap">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 py-2">
+                            <span class="text-dark fw-bold fs-5">About WishFur</span>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><a href="#" class="text-dark">About Us</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Our Mission</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Blog</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 py-2">
+                            <span class="text-dark fw-bold fs-5">Features</span>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><a href="#" class="text-dark">Find Shelter</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Help & Rescue</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Lost & Found</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Care Guide</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Pet Essentials</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 py-2">
+                            <span class="text-dark fw-bold fs-5">Contact Us</span>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><a href="#" class="text-dark">Email: support@wishfur.com</a></li>
+                                <li class="mb-2"><a href="#" class="text-dark">Phone: 1-800-123-4567</a></li>
+                            </ul>
+                            <div class="icon py-2 col-12">
+                                <span class="text-dark fw-bold fs-5">Follow Us On</span>
+                                <div class="mt-3">
+                                    <a href="#" style="color: #3683E8;" class="fs-4 ms-2"><i
+                                            class="bi bi-facebook"></i></a>
+                                    <a href="#" style="color: #3683E8;" class="fs-4 ms-2"><i
+                                            class="bi bi-twitter"></i></a>
+                                    <a href="#" style="color: #3683E8;" class="fs-4 ms-2"><i
+                                            class="bi bi-instagram"></i></a>
+                                    <a href="#" style="color: #3683E8;" class="fs-4 ms-2"><i
+                                            class="bi bi-youtube"></i></a>
+                                    <a href="#" style="color: #3683E8;" class="fs-4 ms-2"><i
+                                            class="bi bi-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>

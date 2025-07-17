@@ -1,0 +1,30 @@
+@media(max-width:575px){
+    /* xs */
+}
+@media(min-width:576px){
+    /* sm */
+    .huskystart{
+        height: 300px;
+    }
+}
+@media(min-width:768px){
+    /* md */
+    .huskystart{
+        height: 480px;
+    }
+    .mdhieght{
+        height: 650px;
+    }
+}
+@media(min-width:992px){
+    /* lg */
+    .mdhieght{
+        height: 560px;
+    }
+}
+@media(min-width:1200px){
+    /* xl */
+}
+@media(min-width:1400px){
+    /* xxl */
+}

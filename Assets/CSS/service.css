@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+/* header start  */
+header .row ul li a:hover{
+    color: #3683e8 !important;
+}
+header{
+    z-index: 999;
+}
+/* header end */
+.search ul li a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.py-6{
+    padding: 10px 10px;
+    color: black;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: -1;
+}

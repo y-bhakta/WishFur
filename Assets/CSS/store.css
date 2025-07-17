@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none!important;
+    color: inherit;
+}
+/* header start  */
+header .row ul li a:hover{
+    color: #3683e8 !important;
+}
+/* header end */
+/* main start  */
+.top{
+    margin-top: 125px;
+}
+.para_friend{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.friend_btn{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #3683e8;
+}
+/* details start*/
+
+/* details end */
+/* main end  */

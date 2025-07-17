@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.py-6{
+    padding: 10px 10px;
+    color: black;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.pf{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.cf{
+    color: #3683e8;
+}
+/* header start  */
+header .row ul li a:hover{
+    color: #3683e8 !important;
+}
+/* header end */
